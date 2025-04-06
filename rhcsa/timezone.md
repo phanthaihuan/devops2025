@@ -7,3 +7,11 @@ Verify the change:
 ```
 timedatectl show
 ```
+### Chrony
+```
+dnf -y install chrony
+```
+
+```
+systemctl status chronyd
+```
