@@ -14,3 +14,18 @@ systemd
 ```
 systemctl status NetworkManager
 ```
+
+Appending IP addresses:
+```
+nmcli connection modify myprofile1 +ipv4.addresses 172.171.172.172/24
+```
+
+Removeing an IP addresses:
+```
+nmcli connection modify myprofile1 -ipv4.addresses 172.17.172.172/24
+```
+
+Reloading the new configuration:
+```
+nmcli connection reload
+```
