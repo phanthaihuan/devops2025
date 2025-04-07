@@ -1,13 +1,41 @@
-#### detection control
-IDS
+## Security Control Types
+1. Preventative
+2. Deterrent
+3. Detective
+4. Corrective
+5. Compensating
+6. Directive
+---
 
-#### Preventive security controls
+### Preventive controls
+Proactive measures implemented to thwart potential security threats or breaches.
+```
 Encryption, Firewall, Sandboxing
+```
 
-#### Deterrent
+### Deterrent controls
+Aim to discourage potential attackers by making the effort seem less appealing or more challenging.
+```
 Warning signs
+```
 
-#### Attack vector
+### Detective controls
+Monitor and alert organizations to malicious activities as they occur or shortly thereafter.
+```
+IDS
+```
+
+### Corrective controls
+Mitigate any potential damage and restore the systems to their normal state.
+
+### Compensating controls
+Alternative measures that are implemented when primary security controls are not feasible or effective.
+
+### Directive controls
+Often rooted in policy or documentation and set the standards for behavior within an organization.
+
+---
+## Attack vector
 1. Supply chain attack
 2. Email-based attack
 3. DDoS attack
